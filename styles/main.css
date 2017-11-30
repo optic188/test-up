@@ -1,0 +1,86 @@
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-elem {
+    /*border-bottom: 1px solid #e5e5e5;*/
+    border-right: 1px solid #e5e5e5;
+    /*margin-right:0 !important;*/
+    /*margin-left:0 !important;*/
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.14);
+    /*margin-right: 0;*/
+    /*margin-left: 0;*/
+}
+.header-elem:last-child {
+    border-right: none;
+}
+.main-content {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*padding-left: 0 !important;*/
+    /*padding-right: 0!important;*/
+    /*margin: 0;*/
+}
+i {
+    color: grey;
+}
+.right-allign {
+    display: flex;
+    justify-content: flex-end;
+}
+.alligned-icons >i {
+    margin-left: 20px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+.left-menu *>i {
+    margin-right: 20px;
+
+ }
+.mdl-layout__drawer-button i {
+    color:white;
+}
+.search-wrapper {
+    background-color: rgba(0,0,0,.06);
+    height: 500px;
+    flex-direction: column !important;
+    position: relative;
+}
+.button-plus {
+    position: absolute !important;
+    bottom: 20px;
+    right: 20px;
+}
+.search-wrapper > div {
+    height: 75px;
+    background: #fff;
+    border-bottom:  1px solid #e5e5e5;;
+}
+.mdl-cell * > .item,.mdl-cell * > .search-elem {
+    margin-top:0px;
+    margin-bottom:0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mdl-cell * > .search-elem {
+    margin-bottom:0px;
+    height: 50px;
+}
+.mdl-cell * > .user-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mdl-cell * > .item * > i, .mdl-cell * > .search-elem * > i {
+    margin-left: 20px;
+}
+.is-focused {
+    /*display: none !important;*/
+}

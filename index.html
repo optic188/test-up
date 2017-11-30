@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web project</title>
+    <!-- Material Design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/material.min.css">
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Product name</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+
+    </div>
+    <main class="mdl-layout__content main-content">
+        <div class="page-content">
+            <div class="mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet header-elem  background">
+                    <div class="mdl-grid ">
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <span class="mdl-layout-title ">Users</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--9-col mdl-cell--9-col-tablet header-elem  background">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <span class="mdl-layout-title">All Users</span>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col mdl-cell--middle right-allign alligned-icons">
+                            <i class="material-icons">view_list</i>
+                            <i class="material-icons">view_list</i>
+                            <i class="material-icons">view_list</i>
+                            <i class="material-icons">view_list</i>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="mdl-cell mdl-cell--3-col left-menu background">
+                    <div class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                  <i class="material-icons">account_circle</i>
+                                  <span class="nowrap">All users</span>
+                                                </span>
+
+                    </div>
+                    <div class="mdl-list__item">
+                                <span class="mdl-list__item-primary-content">
+                                <i class="material-icons">star</i>
+                                <span class="nowrap">Favoirites</span>
+                                </span>
+
+                    </div>
+                    <div class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                      <i class="material-icons">account_circle</i>
+                                      <span class="nowrap">All users</span>
+                                                    </span>
+
+                    </div>
+                    <div class="mdl-list__item">
+                                    <span class="mdl-list__item-primary-content">
+                                    <i class="material-icons">star</i>
+                                    <span class="nowrap">Favoirites</span>
+                                    </span>
+
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--9-col  background">
+                    <div class="mdl-grid search-wrapper">
+                        <div class="mdl-cell mdl-cell--12-col search-elem">
+                            <div class="mdl-cell mdl-cell--1-col item">
+                                <span> <i class="material-icons">search</i></span>
+                            </div>
+                            <div class="mdl-cell mdl-cell--11-col item">
+                                <form action="#">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="sample3">
+                                        <label class="mdl-textfield__label" for="sample3">Search</label>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="mdl-cell mdl-cell--12-col item">
+                            <div class="mdl-cell mdl-cell--1-col item">
+                               <span> <i class="material-icons">account_circle</i></span>
+                            </div>
+                            <div class="mdl-cell mdl-cell--6-col item user-row">
+                                <span> Samuel Jackson</span>
+                                <span>example@com</span>
+                            </div>
+                            <div class="mdl-cell mdl-cell--2-col item">
+                                <span> 10/11/2017</span>
+                            </div>
+                            <div class="mdl-cell mdl-cell--2-col item">
+                                <span> 1 year ago</span>
+                            </div>
+                            <div class="mdl-cell mdl-cell--1-col item">
+                                <button id="demo-menu-lower-right"
+                                        class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="material-icons">more_vert</i>
+                                </button>
+                                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                                    for="demo-menu-lower-right">
+                                    <li class="mdl-menu__item">Additional user info</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--12-col item">1</div>
+
+                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored button-plus">
+                            <i class="material-icons">add</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+</body>
+
+</html>
